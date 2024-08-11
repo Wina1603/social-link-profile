@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 30px;
+  text-align: center;
+}
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: hsl(75, 94%, 57%);
+}
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #cfcccc;
+}
+
+.container {
+  margin: auto;
+  /* height: 100vh; */
+  width: 300px;
+  padding: 55px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 2rem;
+}
+.sub {
+  /* max-width: 400px; */
+  color: #cfcccc;
+}
+.prof-pic {
+  display: flex;
+  justify-content: center;
+}
+.prof-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 5px solid hsl(0, 0%, 20%);
+}
+
+.socials {
+  margin: 40px 0;
+  display: grid;
+  gap: 25px;
+}
+button {
+  width: 300px;
+  height: 57px;
+  background-color: hsl(0, 0%, 20%);
+  color: #cfcccc;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.attribution {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: #f28c20;
+}
+.name {
+  color: hsl(75, 94%, 57%);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    border-radius: 0;
+    margin: 0 auto;
+  }
+
+  .attribution {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-left: 13px;
+  }
+}
